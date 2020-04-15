@@ -1,0 +1,347 @@
+$dark: #222222;
+$darker: #05090A;
+$yellow: #E4C452;
+$light-yellow: #F6F1DB;
+$grey: #B5B5B5;
+$light-grey: #EFEFEF;
+$light: #f7f7f7;
+$blue: #246BF2;
+
+body, html { font-family: 'Open Sans', sans-serif; height: 100%; background: $light; scroll-behavior: smooth; }
+p { font-weight: 300; }
+strong { font-weight: 600; }
+
+h3 { font-weight: 700; }
+h5 { font-weight: 600; }
+h6 { font-weight: 400; }
+
+#myBtn {
+    width: 60px;
+    height: 60px;
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    background: $darker url(images/bt-top.png) no-repeat center center;
+    background-size: 18px;
+    color: $light;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 100px;
+    &:hover {
+        background-color: $dark;
+    }
+  }
+
+header {
+    height: 100%;
+    background: $darker url(images/carolina-marques-bg.jpg) no-repeat bottom right;
+    background-size: 560px;
+
+    nav {
+        background: $dark;
+        h1.navbar-brand {
+            margin: 0;
+            font-size: 16px;
+            font-weight: 700;
+            a {
+                color: $light;
+                &:hover {
+                    text-decoration: none;
+                    color: $yellow;
+                }
+            }
+            img {
+                width: 60px;
+            }
+        }
+
+        a.nav-item {
+            color: $light!important;
+            &:hover {
+                color: $yellow!important;
+            }
+        }
+        .nav-link, .btn {
+            font-weight: 600;
+        }
+    }
+    
+    .navbar-dark .navbar-toggler-icon {
+        background-image: url("images/hamburger.png"); background-size: 19px;
+    }
+    
+    .navbar-dark .navbar-toggler {
+        color: rgba(255, 255, 255, 0);
+        border-color: rgba(161, 60, 60, 0);
+        outline: none!important;
+        padding: 0!important;
+    }
+
+
+    h2 {
+        font-weight: 700;
+        font-size: 48px;
+        color: $yellow;
+    }
+    p {
+        color: $light;
+        font-size: 20px;
+    }
+    .former {
+        color: $grey;
+        font-size: 16px;
+        a {
+            color: $yellow;
+        }
+    }
+    .status-active {
+        font-size: 16px;
+        background: url("images/status-active.png") no-repeat top left;
+        background-size: 16px;
+        background-position: 0px 4px;
+        &::after {
+            content:'Currently available for remote work and freelance';
+        }
+    }
+}
+
+section {
+    padding: 100px 0;
+}
+
+
+section#services {
+    .deliveries {
+        font-size: 14px;
+    }
+}
+
+section#portfolio {
+    background: $light-grey;
+    a {
+        color: $blue;
+    }
+
+    .work-item {
+        background: #e4e4e4;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to top, #E4E4E4, #F3F3F3);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to top, #e4e4e4, #f3f3f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */     
+        position: relative; 
+        img {
+            -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(100%);
+            transition: filter 1s ease;
+            &:hover {
+                filter: grayscale(0%);
+            }
+        }
+    }
+}
+
+section#testimonials {
+    .col-4 {
+        background: url(images/testimonials-bg.png) no-repeat center center;
+        background-size: 300px;
+    }
+    blockquote {
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 300;
+    }
+    img {
+        width: 30px;
+    }
+    a {
+        color: $blue;
+    }
+}
+
+section#about {
+    background: #EFEFEF;
+    .social {
+        p {
+            font-size: 12px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            padding: 20px 0;
+        }
+        a {
+            color: $dark;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .behance {
+            background: url(images/bt-behance.png) no-repeat right;
+            background-size: 40px;
+            padding: 10px 56px 10px 0;
+        }
+        .instagram {
+            background: url(images/bt-instagram.png) no-repeat right;
+            background-size: 40px;
+            padding: 10px 56px 10px 0;
+        }
+
+        .linkedin {
+            background: url(images/bt-linkedin.png) no-repeat right;
+            background-size: 40px;
+            padding: 10px 56px 10px 0;
+        }
+
+        .peoople {
+            background: url(images/bt-peoople.png) no-repeat right;
+            background-size: 40px;
+            padding: 10px 56px 10px 0;
+        }
+    }
+}
+
+footer {
+    background: $dark;
+    color: $light;
+    padding: 100px 0 30px 0;
+    h3 {
+        color: $yellow;
+    }
+    a {
+        color: $yellow;
+        &:hover {
+            color: $yellow;
+        }
+    }
+    .status {
+        font-size: 12px;
+        img {
+            width: 64px;
+            padding: 0 10px 0 0;
+        }
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+
+    .btn {
+        font-weight: 600;
+    }
+}
+
+
+/* large devices */
+@media (max-width: 992px) { 
+    header {
+        background: $darker url(images/carolina-marques-bg.jpg) no-repeat bottom right;
+        background-size: 300px;
+    }
+
+    section#testimonials {
+        .col-4 {
+            background: url(images/testimonials-bg.png) no-repeat center center;
+            background-size: 230px;
+        }
+    }
+ }
+ 
+/* tablet */
+@media (max-width: 768px) {
+    section#about {
+        background: #EFEFEF;
+        .social {
+            .behance {
+                background: url(images/bt-behance.png) no-repeat left;
+                background-size: 40px;
+                padding: 10px 0 10px 56px;
+            }
+            .instagram {
+                background: url(images/bt-instagram.png) no-repeat left;
+                background-size: 40px;
+                padding: 10px 0 10px 56px;
+            }
+    
+            .linkedin {
+                background: url(images/bt-linkedin.png) no-repeat left;
+                background-size: 40px;
+                padding: 10px 0 10px 56px;
+            }
+
+            .peoople {
+                background: url(images/bt-peoople.png) no-repeat left;
+                background-size: 40px;
+                padding: 10px 0 10px 56px;
+            }
+        }
+    }
+}
+
+ /* mobile */
+@media (max-width: 576px) {
+    #myBtn {
+        display: none!important;
+    }
+
+    section {
+        padding: 50px 0;
+    }
+
+    header {
+        background: $darker url(images/carolina-marques-bg.jpg) no-repeat bottom right;
+        background-size: 220px;
+
+        nav {
+            h1.navbar-brand,
+            .nav-link,
+            .btn {
+                font-size: 12px;
+            }
+            .navbar-toggler {
+                font-size: 16px;
+            }
+        }
+
+            h2 {
+                font-size: 22px;
+            }
+            p {
+                font-size: 14px;
+            }
+            .former,
+            .status-active {
+                font-size: 11px;
+                background-size: 12px;
+                background-position: 0px 2px;
+            }
+    }
+
+    section#testimonials {
+        blockquote {
+            font-size: 16px;
+            line-height: 22px;
+            font-weight: 300;
+        }
+
+        img {
+            width: 16px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+    }
+
+    footer {
+        padding: 50px 0 30px 0;
+        .btn {
+            font-size: 12px;
+        }
+    }
+}
