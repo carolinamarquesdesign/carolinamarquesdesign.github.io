@@ -37,7 +37,7 @@ h6 {
   font-weight: 600;
   border: none;
   outline: none;
-  background: #05090A url(images/bt-top.png) no-repeat center center;
+  background: #05090A url("../images/bt-top.png") no-repeat center center;
   background-size: 18px;
   color: #f7f7f7;
   cursor: pointer;
@@ -51,7 +51,7 @@ h6 {
 
 header {
   height: 100%;
-  background: #05090A url(images/carolina-marques-bg.jpg) no-repeat bottom right;
+  background: #05090A url("../images/carolina-marques-bg.jpg") no-repeat bottom right;
   background-size: 560px;
 }
 
@@ -91,7 +91,7 @@ header nav .nav-link, header nav .btn {
 }
 
 header .navbar-dark .navbar-toggler-icon {
-  background-image: url("images/hamburger.png");
+  background-image: url("../images/hamburger.png");
   background-size: 19px;
 }
 
@@ -124,7 +124,7 @@ header .former a {
 
 header .status-active {
   font-size: 16px;
-  background: url("images/status-active.png") no-repeat top left;
+  background: url("../images/status-active.png") no-repeat top left;
   background-size: 16px;
   background-position: 0px 4px;
 }
@@ -175,7 +175,7 @@ section#portfolio .work-item img:hover {
 }
 
 section#testimonials .col-4 {
-  background: url(images/testimonials-bg.png) no-repeat center center;
+  background: url("../images/testimonials-bg.png") no-repeat center center;
   background-size: 300px;
 }
 
@@ -218,25 +218,25 @@ section#about .social a {
 }
 
 section#about .social .behance {
-  background: url(images/bt-behance.png) no-repeat right;
+  background: url("../images/bt-behance.png") no-repeat right;
   background-size: 40px;
   padding: 10px 56px 10px 0;
 }
 
 section#about .social .instagram {
-  background: url(images/bt-instagram.png) no-repeat right;
+  background: url("../images/bt-instagram.png") no-repeat right;
   background-size: 40px;
   padding: 10px 56px 10px 0;
 }
 
 section#about .social .linkedin {
-  background: url(images/bt-linkedin.png) no-repeat right;
+  background: url("../images/bt-linkedin.png") no-repeat right;
   background-size: 40px;
   padding: 10px 56px 10px 0;
 }
 
 section#about .social .peoople {
-  background: url(images/bt-peoople.png) no-repeat right;
+  background: url("../images/bt-peoople.png") no-repeat right;
   background-size: 40px;
   padding: 10px 56px 10px 0;
 }
@@ -279,11 +279,11 @@ footer .btn {
 /* large devices */
 @media (max-width: 992px) {
   header {
-    background: #05090A url(images/carolina-marques-bg.jpg) no-repeat bottom right;
+    background: #05090A url("../images/carolina-marques-bg.jpg") no-repeat bottom right;
     background-size: 300px;
   }
   section#testimonials .col-4 {
-    background: url(images/testimonials-bg.png) no-repeat center center;
+    background: url("../images/testimonials-bg.png") no-repeat center center;
     background-size: 230px;
   }
 }
@@ -294,22 +294,22 @@ footer .btn {
     background: #EFEFEF;
   }
   section#about .social .behance {
-    background: url(images/bt-behance.png) no-repeat left;
+    background: url("../images/bt-behance.png") no-repeat left;
     background-size: 40px;
     padding: 10px 0 10px 56px;
   }
   section#about .social .instagram {
-    background: url(images/bt-instagram.png) no-repeat left;
+    background: url("../images/bt-instagram.png") no-repeat left;
     background-size: 40px;
     padding: 10px 0 10px 56px;
   }
   section#about .social .linkedin {
-    background: url(images/bt-linkedin.png) no-repeat left;
+    background: url("../images/bt-linkedin.png") no-repeat left;
     background-size: 40px;
     padding: 10px 0 10px 56px;
   }
   section#about .social .peoople {
-    background: url(images/bt-peoople.png) no-repeat left;
+    background: url("../images/bt-peoople.png") no-repeat left;
     background-size: 40px;
     padding: 10px 0 10px 56px;
   }
@@ -324,7 +324,7 @@ footer .btn {
     padding: 50px 0;
   }
   header {
-    background: #05090A url(images/carolina-marques-bg.jpg) no-repeat bottom right;
+    background: #05090A url("../images/carolina-marques-bg.jpg") no-repeat bottom right;
     background-size: 220px;
   }
   header nav h1.navbar-brand,

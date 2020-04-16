@@ -27,7 +27,7 @@ h6 { font-weight: 400; }
     font-weight: 600;
     border: none;
     outline: none;
-    background: $darker url(images/bt-top.png) no-repeat center center;
+    background: $darker url("../images/bt-top.png") no-repeat center center;
     background-size: 18px;
     color: $light;
     cursor: pointer;
@@ -40,7 +40,7 @@ h6 { font-weight: 400; }
 
 header {
     height: 100%;
-    background: $darker url(images/carolina-marques-bg.jpg) no-repeat bottom right;
+    background: $darker url("../images/carolina-marques-bg.jpg") no-repeat bottom right;
     background-size: 560px;
 
     nav {
@@ -73,7 +73,7 @@ header {
     }
     
     .navbar-dark .navbar-toggler-icon {
-        background-image: url("images/hamburger.png"); background-size: 19px;
+        background-image: url("../images/hamburger.png"); background-size: 19px;
     }
     
     .navbar-dark .navbar-toggler {
@@ -102,7 +102,7 @@ header {
     }
     .status-active {
         font-size: 16px;
-        background: url("images/status-active.png") no-repeat top left;
+        background: url("../images/status-active.png") no-repeat top left;
         background-size: 16px;
         background-position: 0px 4px;
         &::after {
@@ -146,7 +146,7 @@ section#portfolio {
 
 section#testimonials {
     .col-4 {
-        background: url(images/testimonials-bg.png) no-repeat center center;
+        background: url("../images/testimonials-bg.png") no-repeat center center;
         background-size: 300px;
     }
     blockquote {
@@ -182,24 +182,24 @@ section#about {
             font-weight: 600;
         }
         .behance {
-            background: url(images/bt-behance.png) no-repeat right;
+            background: url("../images/bt-behance.png") no-repeat right;
             background-size: 40px;
             padding: 10px 56px 10px 0;
         }
         .instagram {
-            background: url(images/bt-instagram.png) no-repeat right;
+            background: url("../images/bt-instagram.png") no-repeat right;
             background-size: 40px;
             padding: 10px 56px 10px 0;
         }
 
         .linkedin {
-            background: url(images/bt-linkedin.png) no-repeat right;
+            background: url("../images/bt-linkedin.png") no-repeat right;
             background-size: 40px;
             padding: 10px 56px 10px 0;
         }
 
         .peoople {
-            background: url(images/bt-peoople.png) no-repeat right;
+            background: url("../images/bt-peoople.png") no-repeat right;
             background-size: 40px;
             padding: 10px 56px 10px 0;
         }
@@ -240,13 +240,13 @@ footer {
 /* large devices */
 @media (max-width: 992px) { 
     header {
-        background: $darker url(images/carolina-marques-bg.jpg) no-repeat bottom right;
+        background: $darker url("../images/carolina-marques-bg.jpg") no-repeat bottom right;
         background-size: 300px;
     }
 
     section#testimonials {
         .col-4 {
-            background: url(images/testimonials-bg.png) no-repeat center center;
+            background: url("../images/testimonials-bg.png") no-repeat center center;
             background-size: 230px;
         }
     }
@@ -258,24 +258,24 @@ footer {
         background: #EFEFEF;
         .social {
             .behance {
-                background: url(images/bt-behance.png) no-repeat left;
+                background: url("../images/bt-behance.png") no-repeat left;
                 background-size: 40px;
                 padding: 10px 0 10px 56px;
             }
             .instagram {
-                background: url(images/bt-instagram.png) no-repeat left;
+                background: url("../images/bt-instagram.png") no-repeat left;
                 background-size: 40px;
                 padding: 10px 0 10px 56px;
             }
     
             .linkedin {
-                background: url(images/bt-linkedin.png) no-repeat left;
+                background: url("../images/bt-linkedin.png") no-repeat left;
                 background-size: 40px;
                 padding: 10px 0 10px 56px;
             }
 
             .peoople {
-                background: url(images/bt-peoople.png) no-repeat left;
+                background: url("../images/bt-peoople.png") no-repeat left;
                 background-size: 40px;
                 padding: 10px 0 10px 56px;
             }
@@ -294,7 +294,7 @@ footer {
     }
 
     header {
-        background: $darker url(images/carolina-marques-bg.jpg) no-repeat bottom right;
+        background: $darker url("../images/carolina-marques-bg.jpg") no-repeat bottom right;
         background-size: 220px;
 
         nav {
