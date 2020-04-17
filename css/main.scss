@@ -9,7 +9,7 @@ body, html { font-family: 'Open Sans', sans-serif; height: 100%; background: $li
 p { font-weight: 300; }
 strong { font-weight: 600; }
 
-h3 { font-weight: 700; }
+h3 { font-weight: 700; font-size: 38px; line-height: 42px; }
 h5 { font-weight: 600; }
 h6 { font-weight: 400; }
 
@@ -230,10 +230,6 @@ footer {
 
 /* large devices */
 @media (max-width: 992px) { 
-    header {
-        background-size: 300px;
-    }
-
     section#testimonials {
         .col-4 {
             background: url("../images/testimonials-bg.png") no-repeat center center;
@@ -284,8 +280,6 @@ footer {
     }
 
     header {
-        background-size: 220px;
-
         nav {
             h1.navbar-brand,
             .nav-link,
@@ -296,18 +290,11 @@ footer {
                 font-size: 16px;
             }
         }
-
-            h2 {
-                font-size: 22px;
-            }
-            p {
-                font-size: 14px;
-            }
-            .former,
             .status-active {
-                font-size: 11px;
-                background-size: 12px;
-                background-position: 0px 2px;
+                background-position: 0px 4px;
+                &::after {
+                    padding: 0 0 0 10px;
+                }
             }
     }
 
