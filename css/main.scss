@@ -1,19 +1,29 @@
 $dark: #222222;
-$darker: #05090A;
-$yellow: #E4C452;
-$light-yellow: #F6F1DB;
+$purple: #4F589D;
 $grey: #B5B5B5;
-$light-grey: #EFEFEF;
-$light: #f7f7f7;
-$blue: #246BF2;
+$light-grey: #F5F5F5;
+$light: #fafafa;
+$green: #55B253;
 
-body, html { font-family: 'Open Sans', sans-serif; height: 100%; background: $light; /*scroll-behavior: smooth;*/ }
+body, html { font-family: 'Open Sans', sans-serif; height: 100%; background: $light; color: $dark; /*scroll-behavior: smooth;*/ }
 p { font-weight: 300; }
 strong { font-weight: 600; }
 
 h3 { font-weight: 700; }
 h5 { font-weight: 600; }
 h6 { font-weight: 400; }
+
+a {
+    color: $green;
+    text-decoration: underline;
+}
+
+a.nav-item,
+a.btn,
+li a,
+h1.navbar-brand a {
+    text-decoration: none;
+}
 
 #myBtn {
     width: 60px;
@@ -27,7 +37,7 @@ h6 { font-weight: 400; }
     font-weight: 600;
     border: none;
     outline: none;
-    background: $darker url("../images/bt-top.png") no-repeat center center;
+    background: $dark url("../images/bt-top.png") no-repeat center center;
     background-size: 18px;
     color: $light;
     cursor: pointer;
@@ -40,20 +50,19 @@ h6 { font-weight: 400; }
 
 header {
     height: 100%;
-    background: $darker url("../images/carolina-marques-bg.jpg") no-repeat bottom right;
     background-size: 560px;
 
     nav {
-        background: $dark;
+        background: $light;
         h1.navbar-brand {
             margin: 0;
             font-size: 16px;
             font-weight: 700;
             a {
-                color: $light;
+                color: $dark;
                 &:hover {
                     text-decoration: none;
-                    color: $yellow;
+                    color: $green;
                 }
             }
             img {
@@ -62,9 +71,9 @@ header {
         }
 
         a.nav-item {
-            color: $light!important;
+            color: $dark;
             &:hover {
-                color: $yellow!important;
+                color: $green;
             }
         }
         .nav-link, .btn {
@@ -72,11 +81,11 @@ header {
         }
     }
     
-    .navbar-dark .navbar-toggler-icon {
+    .navbar-toggler-icon {
         background-image: url("../images/hamburger.png"); background-size: 19px;
     }
     
-    .navbar-dark .navbar-toggler {
+    .navbar-toggler {
         color: rgba(255, 255, 255, 0);
         border-color: rgba(161, 60, 60, 0);
         outline: none!important;
@@ -87,18 +96,14 @@ header {
     h2 {
         font-weight: 700;
         font-size: 48px;
-        color: $yellow;
+        color: $purple;
     }
     p {
-        color: $light;
         font-size: 20px;
     }
     .former {
         color: $grey;
         font-size: 16px;
-        a {
-            color: $yellow;
-        }
     }
     .status-active {
         font-size: 16px;
@@ -117,16 +122,13 @@ section {
 
 
 section#services {
+    background: $light-grey;
     .deliveries {
         font-size: 14px;
     }
 }
 
 section#portfolio {
-    background: $light-grey;
-    a {
-        color: $blue;
-    }
 
     .work-item {
         background: #e4e4e4;  /* fallback for old browsers */
@@ -145,6 +147,7 @@ section#portfolio {
 }
 
 section#testimonials {
+    background: $light-grey;
     .col-4 {
         background: url("../images/testimonials-bg.png") no-repeat center center;
         background-size: 300px;
@@ -157,13 +160,9 @@ section#testimonials {
     img {
         width: 30px;
     }
-    a {
-        color: $blue;
-    }
 }
 
 section#about {
-    background: #EFEFEF;
     .social {
         p {
             font-size: 12px;
@@ -207,18 +206,9 @@ section#about {
 }
 
 footer {
-    background: $dark;
-    color: $light;
+    background: $light-grey;
+    color: $dark;
     padding: 100px 0 30px 0;
-    h3 {
-        color: $yellow;
-    }
-    a {
-        color: $yellow;
-        &:hover {
-            color: $yellow;
-        }
-    }
     .status {
         font-size: 12px;
         img {
@@ -229,6 +219,7 @@ footer {
 
     .copyright {
         font-size: 12px;
+        color: $grey;
     }
 
     .btn {
@@ -240,7 +231,6 @@ footer {
 /* large devices */
 @media (max-width: 992px) { 
     header {
-        background: $darker url("../images/carolina-marques-bg.jpg") no-repeat bottom right;
         background-size: 300px;
     }
 
@@ -294,7 +284,6 @@ footer {
     }
 
     header {
-        background: $darker url("../images/carolina-marques-bg.jpg") no-repeat bottom right;
         background-size: 220px;
 
         nav {

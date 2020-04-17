@@ -1,7 +1,8 @@
 body, html {
   font-family: 'Open Sans', sans-serif;
   height: 100%;
-  background: #f7f7f7;
+  background: #fafafa;
+  color: #222222;
   /*scroll-behavior: smooth;*/
 }
 
@@ -25,6 +26,18 @@ h6 {
   font-weight: 400;
 }
 
+a {
+  color: #55B253;
+  text-decoration: underline;
+}
+
+a.nav-item,
+a.btn,
+li a,
+h1.navbar-brand a {
+  text-decoration: none;
+}
+
 #myBtn {
   width: 60px;
   height: 60px;
@@ -37,9 +50,9 @@ h6 {
   font-weight: 600;
   border: none;
   outline: none;
-  background: #05090A url("../images/bt-top.png") no-repeat center center;
+  background: #222222 url("../images/bt-top.png") no-repeat center center;
   background-size: 18px;
-  color: #f7f7f7;
+  color: #fafafa;
   cursor: pointer;
   padding: 15px;
   border-radius: 100px;
@@ -51,12 +64,11 @@ h6 {
 
 header {
   height: 100%;
-  background: #05090A url("../images/carolina-marques-bg.jpg") no-repeat bottom right;
   background-size: 560px;
 }
 
 header nav {
-  background: #222222;
+  background: #fafafa;
 }
 
 header nav h1.navbar-brand {
@@ -66,12 +78,12 @@ header nav h1.navbar-brand {
 }
 
 header nav h1.navbar-brand a {
-  color: #f7f7f7;
+  color: #222222;
 }
 
 header nav h1.navbar-brand a:hover {
   text-decoration: none;
-  color: #E4C452;
+  color: #55B253;
 }
 
 header nav h1.navbar-brand img {
@@ -79,23 +91,23 @@ header nav h1.navbar-brand img {
 }
 
 header nav a.nav-item {
-  color: #f7f7f7 !important;
+  color: #222222;
 }
 
 header nav a.nav-item:hover {
-  color: #E4C452 !important;
+  color: #55B253;
 }
 
 header nav .nav-link, header nav .btn {
   font-weight: 600;
 }
 
-header .navbar-dark .navbar-toggler-icon {
+header .navbar-toggler-icon {
   background-image: url("../images/hamburger.png");
   background-size: 19px;
 }
 
-header .navbar-dark .navbar-toggler {
+header .navbar-toggler {
   color: rgba(255, 255, 255, 0);
   border-color: rgba(161, 60, 60, 0);
   outline: none !important;
@@ -105,21 +117,16 @@ header .navbar-dark .navbar-toggler {
 header h2 {
   font-weight: 700;
   font-size: 48px;
-  color: #E4C452;
+  color: #4F589D;
 }
 
 header p {
-  color: #f7f7f7;
   font-size: 20px;
 }
 
 header .former {
   color: #B5B5B5;
   font-size: 16px;
-}
-
-header .former a {
-  color: #E4C452;
 }
 
 header .status-active {
@@ -137,16 +144,12 @@ section {
   padding: 100px 0;
 }
 
+section#services {
+  background: #F5F5F5;
+}
+
 section#services .deliveries {
   font-size: 14px;
-}
-
-section#portfolio {
-  background: #EFEFEF;
-}
-
-section#portfolio a {
-  color: #246BF2;
 }
 
 section#portfolio .work-item {
@@ -174,6 +177,10 @@ section#portfolio .work-item img:hover {
           filter: grayscale(0%);
 }
 
+section#testimonials {
+  background: #F5F5F5;
+}
+
 section#testimonials .col-4 {
   background: url("../images/testimonials-bg.png") no-repeat center center;
   background-size: 300px;
@@ -187,14 +194,6 @@ section#testimonials blockquote {
 
 section#testimonials img {
   width: 30px;
-}
-
-section#testimonials a {
-  color: #246BF2;
-}
-
-section#about {
-  background: #EFEFEF;
 }
 
 section#about .social p {
@@ -242,21 +241,9 @@ section#about .social .peoople {
 }
 
 footer {
-  background: #222222;
-  color: #f7f7f7;
+  background: #F5F5F5;
+  color: #222222;
   padding: 100px 0 30px 0;
-}
-
-footer h3 {
-  color: #E4C452;
-}
-
-footer a {
-  color: #E4C452;
-}
-
-footer a:hover {
-  color: #E4C452;
 }
 
 footer .status {
@@ -270,6 +257,7 @@ footer .status img {
 
 footer .copyright {
   font-size: 12px;
+  color: #B5B5B5;
 }
 
 footer .btn {
@@ -279,7 +267,6 @@ footer .btn {
 /* large devices */
 @media (max-width: 992px) {
   header {
-    background: #05090A url("../images/carolina-marques-bg.jpg") no-repeat bottom right;
     background-size: 300px;
   }
   section#testimonials .col-4 {
@@ -324,7 +311,6 @@ footer .btn {
     padding: 50px 0;
   }
   header {
-    background: #05090A url("../images/carolina-marques-bg.jpg") no-repeat bottom right;
     background-size: 220px;
   }
   header nav h1.navbar-brand,
