@@ -16,6 +16,9 @@ h6 { font-weight: 400; }
 a {
     color: $green;
     text-decoration: underline;
+    &:hover {
+        color: $dark;
+    }
 }
 
 a.nav-item,

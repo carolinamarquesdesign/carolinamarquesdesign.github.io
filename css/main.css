@@ -33,6 +33,10 @@ a {
   text-decoration: underline;
 }
 
+a:hover {
+  color: #222222;
+}
+
 a.nav-item,
 a.btn,
 li a,
