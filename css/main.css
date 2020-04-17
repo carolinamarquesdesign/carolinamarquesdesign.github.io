@@ -321,12 +321,6 @@ footer .btn {
   header nav .navbar-toggler {
     font-size: 16px;
   }
-  header .status-active {
-    background-position: 0px 4px;
-  }
-  header .status-active::after {
-    padding: 0 0 0 10px;
-  }
   section#testimonials blockquote {
     font-size: 16px;
     line-height: 22px;
