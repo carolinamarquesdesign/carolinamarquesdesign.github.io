@@ -114,8 +114,26 @@ header {
         background-size: 16px;
         background-position: 0px 4px;
         &::after {
-            content:'Currently available for remote work and freelance';
+            content:'Available for remote work and freelance';
         }
+    }
+
+    #scene,.layer {
+        width: 100%;
+        height: 100%;
+        overflow: visible;
+    }
+
+    .carol {
+        background: url(../images/carolina-marques-bg.png) no-repeat center center;
+        background-size: 320px;
+        background-position: right;
+    }
+
+    .grey-shadow {
+        background: url(../images/grey-shadow.png) no-repeat center center;
+        background-size: 320px;
+        background-position: right 30px bottom 43%;
     }
 }
 
@@ -233,6 +251,20 @@ footer {
 
 /* large devices */
 @media (max-width: 992px) { 
+    header{
+        .carol {
+            background: url(../images/carolina-marques-bg.png) no-repeat center center;
+            background-size: 260px;
+            background-position: right;
+        }
+    
+        .grey-shadow {
+            background: url(../images/grey-shadow.png) no-repeat center center;
+            background-size: 260px;
+            background-position: right 30px bottom 43%;
+        }
+    }
+    
     section#testimonials {
         .col-4 {
             background: url("../images/testimonials-bg.png") no-repeat center center;
@@ -292,6 +324,24 @@ footer {
             .navbar-toggler {
                 font-size: 16px;
             }
+        }
+        h2 {
+            font-weight: 700;
+            font-size: 32px;
+            color: $purple;
+        }
+        p {
+            font-size: 18px;
+        }
+        .former {
+            color: $grey;
+            font-size: 12px;
+        }
+        .status-active {
+            font-size: 12px;
+            background: url("../images/status-active.png") no-repeat top left;
+            background-size: 16px;
+            background-position: 0px 1px;
         }
     }
 
