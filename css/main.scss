@@ -295,6 +295,7 @@ footer {
 
  /* mobile */
 @media (max-width: 576px) {
+    h3 { font-weight: 700; font-size: 28px; line-height: 32px; }
     #myBtn {
         display: none!important;
     }
