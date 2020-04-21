@@ -309,7 +309,13 @@ footer {
             .nav-link,
             .btn {
                 font-size: 12px;
+            
+                img {
+                    width: 20px;
+                    margin-top: -2px;
+                }
             }
+            
             .navbar-toggler {
                 font-size: 16px;
             }
