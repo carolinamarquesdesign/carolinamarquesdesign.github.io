@@ -104,6 +104,11 @@ header nav a.nav-item:hover {
   color: #55B253;
 }
 
+header nav a.nav-item .badge-pill {
+  background: #4F589D;
+  color: #fafafa;
+}
+
 header nav .nav-link, header nav .btn {
   font-weight: 600;
 }
@@ -215,19 +220,10 @@ section#testimonials {
   background: #F5F5F5;
 }
 
-section#testimonials .col-4 {
-  background: url("../images/testimonials-bg.png") no-repeat center center;
-  background-size: 260px;
-}
-
 section#testimonials blockquote {
   font-size: 30px;
   line-height: 40px;
   font-weight: 300;
-}
-
-section#testimonials img {
-  width: 30px;
 }
 
 section#about .social p {

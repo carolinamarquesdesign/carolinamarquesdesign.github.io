@@ -78,6 +78,10 @@ header {
             &:hover {
                 color: $green;
             }
+            .badge-pill {
+                background: $purple;
+                color: $light;
+            }
         }
         .nav-link, .btn {
             font-weight: 600;
@@ -177,17 +181,10 @@ section#portfolio {
 
 section#testimonials {
     background: $light-grey;
-    .col-4 {
-        background: url("../images/testimonials-bg.png") no-repeat center center;
-        background-size: 260px;
-    }
     blockquote {
         font-size: 30px;
         line-height: 40px;
         font-weight: 300;
-    }
-    img {
-        width: 30px;
     }
 }
 
