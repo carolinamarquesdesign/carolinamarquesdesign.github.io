@@ -37,6 +37,10 @@ a:hover {
   color: #222222;
 }
 
+.btn {
+  font-weight: 600;
+}
+
 a.nav-item,
 a.btn,
 li a,
@@ -109,7 +113,7 @@ header nav a.nav-item .badge-pill {
   color: #fafafa;
 }
 
-header nav .nav-link, header nav .btn {
+header nav .nav-link {
   font-weight: 600;
 }
 
@@ -288,10 +292,6 @@ footer .status img {
 footer .copyright {
   font-size: 12px;
   color: #B5B5B5;
-}
-
-footer .btn {
-  font-weight: 600;
 }
 
 /* large devices */
