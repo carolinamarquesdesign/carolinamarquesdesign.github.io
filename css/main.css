@@ -181,6 +181,11 @@ section#services .deliveries {
   font-size: 14px;
 }
 
+section#newsletter {
+  background: #4F589D;
+  color: #fafafa;
+}
+
 section#portfolio .work-item {
   background: #e4e4e4;
   /* fallback for old browsers */
