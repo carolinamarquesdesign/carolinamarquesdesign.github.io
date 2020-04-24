@@ -3,7 +3,8 @@ $purple: #4F589D;
 $grey: #B5B5B5;
 $light-grey: #F5F5F5;
 $light: #fafafa;
-$green: #55B253;
+$green: #048221;
+$dark-green: #004911;
 
 body, html { font-family: 'Open Sans', sans-serif; height: 100%; background: $light; color: $dark; /*scroll-behavior: smooth;*/ }
 p { font-weight: 300; }
@@ -17,12 +18,18 @@ a {
     color: $green;
     text-decoration: underline;
     &:hover {
-        color: $dark;
+        color: $dark-green;
     }
 }
 
 .btn {
     font-weight: 600;
+    background-color: $green;
+    border-color: $green;
+    &:hover {
+        background-color: $dark-green;
+        border-color:  $dark-green;
+    }
 }
 
 a.nav-item,
@@ -179,6 +186,9 @@ section#portfolio {
             &:hover {
                 filter: grayscale(0%);
             }
+        }
+        img.border:hover {
+            border: 1px solid $purple!important;
         }
     }
 }

@@ -29,16 +29,23 @@ h6 {
 }
 
 a {
-  color: #55B253;
+  color: #048221;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #222222;
+  color: #004911;
 }
 
 .btn {
   font-weight: 600;
+  background-color: #048221;
+  border-color: #048221;
+}
+
+.btn:hover {
+  background-color: #004911;
+  border-color: #004911;
 }
 
 a.nav-item,
@@ -93,7 +100,7 @@ header nav h1.navbar-brand a {
 
 header nav h1.navbar-brand a:hover {
   text-decoration: none;
-  color: #55B253;
+  color: #048221;
 }
 
 header nav h1.navbar-brand img {
@@ -105,7 +112,7 @@ header nav a.nav-item {
 }
 
 header nav a.nav-item:hover {
-  color: #55B253;
+  color: #048221;
 }
 
 header nav a.nav-item .badge-pill {
@@ -218,6 +225,10 @@ section#portfolio .work-item img {
 section#portfolio .work-item img:hover {
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
+}
+
+section#portfolio .work-item img.border:hover {
+  border: 1px solid #4F589D !important;
 }
 
 section#testimonials {
