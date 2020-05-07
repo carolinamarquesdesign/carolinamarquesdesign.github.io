@@ -1,0 +1,43 @@
+body, html {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  background: #fafafa;
+  color: #222222;
+  /*scroll-behavior: smooth;*/
+}
+
+p {
+  font-weight: 300;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.btn {
+  font-weight: 600;
+  background-color: #048221;
+  border-color: #048221;
+}
+
+.btn:hover {
+  background-color: #004911;
+  border-color: #004911;
+}
+
+/* header */
+header h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+header h1 img {
+  max-width: 80px;
+}
+
+header h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #4F589D;
+}
+/*# sourceMappingURL=hello.css.map */

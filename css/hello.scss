@@ -1,0 +1,36 @@
+$dark: #222222;
+$purple: #4F589D;
+$grey: #656565;
+$light-grey: #F5F5F5;
+$light: #fafafa;
+$green: #048221;
+$dark-green: #004911;
+
+body, html { font-family: 'Open Sans', sans-serif; height: 100%; background: $light; color: $dark; /*scroll-behavior: smooth;*/ }
+p { font-weight: 300; }
+strong { font-weight: 600; }
+.btn {
+    font-weight: 600;
+    background-color: $green;
+    border-color: $green;
+    &:hover {
+        background-color: $dark-green;
+        border-color:  $dark-green;
+    }
+}
+
+/* header */
+header {
+    h1 {
+        font-size: 20px;
+        font-weight: 700;
+        img {
+            max-width: 80px;
+        }
+    }
+    h2 {
+        font-size: 16px;
+        font-weight: 600;
+        color: $purple;
+    }
+}
