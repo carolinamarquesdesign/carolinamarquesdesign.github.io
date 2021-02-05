@@ -143,6 +143,17 @@ header .status-active::after {
   content: 'Available for remote work and freelance';
 }
 
+header .status-inactive {
+  font-size: 16px;
+  background: url("../images/status.png") no-repeat top left;
+  background-size: 16px;
+  background-position: 0px 4px;
+}
+
+header .status-inactive::after {
+  content: 'Currently not available for freelance work';
+}
+
 header .author-pic {
   width: 300px;
   height: 380px;

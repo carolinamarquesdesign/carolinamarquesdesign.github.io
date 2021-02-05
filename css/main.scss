@@ -115,6 +115,16 @@ header {
         }
     }
 
+    .status-inactive {
+        font-size: 16px;
+        background: url("../images/status.png") no-repeat top left;
+        background-size: 16px;
+        background-position: 0px 4px;
+        &::after {
+            content:'Currently not available for freelance work';
+        }
+    }
+
     .author-pic {
         width: 300px;
         height: 380px;
